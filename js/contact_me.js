@@ -20,7 +20,7 @@ $(function() {
       $this = $("#sendMessageButton");
       $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
       $.ajax({
-        url: "../vendor/jquery/jquery.email.js",
+        url: "https://hooks.slack.com/services/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",
         type: "POST",
         data: {
           name: name,
